@@ -8,17 +8,24 @@
 var obj = document.getElementsByClassName("RLfQR")[0].getElementsByClassName("_2wP_Y");
 
 var data = [];
+var src;
 
 // $("html, body").scrollTop(0);
+var scrollUp = $("flow-drawer-container");
+scrollUp.scrollTop = 0;
 
 for (var i = 0; i < obj.length; i++) {
-	var num = obj[i].getElementsByClassName("emojitext ellipsify")[0].title;
+	// var num = obj[i].getElementsByClassName("emojitext ellipsify")[0].title;
+	var num = obj[i].getElementsByClassName("_1wjpf")[0].title;
 	// var img = obj[i].getElementsByClassName("avatar-image is-loaded")[0].src.replace("t=s", "t=l");
-    var img = obj[i].getElementsByClassName("avatar-image is-loaded")[0];
-    img = img.src.replace("t=s", "t=l");
-	try { var name = obj[i].getElementsByClassName("emojitext screen-name-text")[0].outerText; }
+    // var img = obj[i].getElementsByClassName("avatar-image is-loaded")[0];
+    // var img = obj[i].getElementsByClassName("Qgzj8 gqwaM")[0].src.replace("t=s", "t=l");
+    // img = img.src.replace("t=s", "t=l");
+	// try { var name = obj[i].getElementsByClassName("emojitext screen-name-text")[0].outerText; }
+	try { var name = obj[i].getElementsByClassName("screen-name-text")[0].outerText; }
 	catch (err) { var name = "NO_NAME"; };
-	try { var status = obj[i].getElementsByClassName("emojitext")[1].title }
+	// try { var status = obj[i].getElementsByClassName("emojitext")[1].title }
+	try { var status = obj[i].getElementsByClassName("_1wjpf")[1].title }
 	catch (err) { var status = "NONE" };
 	data[i] = { num: num, name: name, img: img, status: status };
 }
