@@ -61,7 +61,7 @@ setTimeout(function() {
             
         //GET STATUS TEXT
 		// try { var status = obj[i].getElementsByClassName("emojitext")[1].title }
-		try { var status = obj[i].getElementsByClassName("_2Bw3Q")[1].title }
+		try { var status = obj[i].getElementsByClassName("_2Bw3Q")[0].getElementsByClassName("_19RFN")[0].title }
 		catch (err) { var status = "NONE" }
 		
 		data[i] = { num: num, namenum: namenum, name: name, img: img, status: status };
