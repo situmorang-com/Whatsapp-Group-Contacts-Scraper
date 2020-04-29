@@ -8,7 +8,7 @@
 //Click the group Icon to open the Group info Window to the side
 // var openWAGroup = document.getElementsByClassName("_18tv-");
 var openWAGroup = document.evaluate('//*[@id="main"]/header/div[2]', document, null,  XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-if (!checkGroupInfoOpen){openWAGroup.click();}
+openWAGroup.click();
 
 //Click the more Contacts button
 var btnClick_more = document.evaluate('//*[@id="app"]//span[@data-icon="down"]', document, null,  XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
