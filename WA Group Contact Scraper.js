@@ -7,11 +7,11 @@
 
 //Click the group Icon to open the Group info Window to the side
 // var openWAGroup = document.getElementsByClassName("_18tv-");
-var openWAGroup = document.getElementsByClassName("_3V5x5")[0].getElementsByClassName("_1lpto")
-openWAGroup[0].click();
+var openWAGroup = document.evaluate('//*[@id="main"]/header/div[2]', document, null,  XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+if (!checkGroupInfoOpen){openWAGroup.click();}
 
 //Click the more Contacts button
-var btnClick_more = document.getElementsByClassName("_3p0T6");
+var btnClick_more = document.evaluate('//*[@id="app"]//span[@data-icon="down"]', document, null,  XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 btnClick_more[0].click();
 
 
@@ -31,7 +31,7 @@ var scrollUp = document.getElementsByClassName("_2sNbV")[0];
 
 //SELECT ALL PARTICIPANTS ELEMENT
 //var obj = document.getElementsByClassName("_37f_5")[0].getElementsByClassName("_3HZor")[0].getElementsByClassName("_3xdMj");
-var obj = document.getElementsByClassName("_3xdMj")[0].getElementsByClassName("_3La1s")[0].getElementsByClassName("X7YrQ");
+var obj = document.querySelector('[title="Exit group"]').parentNode.previousSibling.lastChild.firstChild.children
 var data = [];
 
 setTimeout(function() {
@@ -39,7 +39,7 @@ setTimeout(function() {
 
         //GET PHONE NUMBER OR NAME IF ALREADY IN CONTACT
         // var num = obj[i].getElementsByClassName("emojitext ellipsify")[0].title;
-		var namenum = obj[i].getElementsByClassName("_3H4MS")[0].innerText;
+		var namenum = obj[i].querySelector('[dir="auto"]').innerText;
 		
 		// var img = obj[i].getElementsByClassName("avatar-image is-loaded")[0].src.replace("t=s", "t=l");
 	
