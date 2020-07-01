@@ -9,14 +9,15 @@
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <img alt="Open Issues" src="https://img.shields.io/github/issues-raw/situmorang-com/Whatsapp-Group-Contacts-Scraper" />
   <img alt="Last Commit" src="https://img.shields.io/github/last-commit/situmorang-com/Whatsapp-Group-Contacts-Scraper" />
-  <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/situmorang-com/Whatsapp-Group-Contacts-Scraper" />
   <img alt="Contributors" src="https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square" />
-  <img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" />
+  <img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?" />
   <img alt="Stars" src="https://img.shields.io/github/stars/situmorang-com/Whatsapp-Group-Contacts-Scraper?style=social" />
   <a href="https://twitter.com/edmund7s" target="_blank">
     <img alt="Twitter: edmund7s" src="https://img.shields.io/twitter/follow/edmund7s.svg?style=social" />
   </a>
-  <img alt="Discord Chat" src="https://img.shields.io/discord/727939715407413300" />
+  <a href="https://discord.gg/NvP5FW7 target="_blank">
+    <img alt="Discord Chat" src="https://img.shields.io/discord/727939715407413300" />
+  </a>
 </p>
 
 How to scrap whatsapp group contacts from https://web.whatsapp.com/
@@ -27,7 +28,7 @@ This will enable you to get group contacts from your whatsapp specific group you
 git clone https://github.com/situmorang-com/Whatsapp-Group-Contacts-Scraper.git
 ```
 ### 🍴Fork Project
-You can fork this project by clicking `fork button` >> ![GitHub forks](https://img.shields.io/github/forks/situmorang-com/Whatsapp-Group-Contacts-Scraper?style=social) the top right corner of this page.
+You can fork this project by clicking `fork button` 👉 ![GitHub forks](https://img.shields.io/github/forks/situmorang-com/Whatsapp-Group-Contacts-Scraper?style=social) the top right corner of this page.
 
 
 
@@ -66,7 +67,7 @@ We are open for contributors. Whether you are helping us fixing bugs, proposing 
 
 
 ## 👍 Show your support
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if this project helped you! ![GitHub stars](https://img.shields.io/github/stars/situmorang-com/Whatsapp-Group-Contacts-Scraper?style=social)
 
 ## 📫&nbsp; Have a question? Want to chat? Ran into a problem?
-We are happy to welcome you in our official [![Discord Channel](https://img.shields.io/discord/727939715407413300)](https://discord.gg/NvP5FW7) Or **reach out to us directly** via [![Twitter](https://img.shields.io/twitter/follow/edmund7s.svg?style=social)](https://twitter.com/edmund7s)
+We are happy to welcome you in our official (🔗click here)👉 [![Discord Channel](https://img.shields.io/discord/727939715407413300)](https://discord.gg/NvP5FW7) Or **reach out to us directly** via [![Twitter](https://img.shields.io/twitter/follow/edmund7s.svg?style=social)](https://twitter.com/edmund7s)
