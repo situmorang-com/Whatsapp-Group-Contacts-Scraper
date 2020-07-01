@@ -1,4 +1,14 @@
-# Whatsapp-Group-Contacts-Scraper
+<h1 align="center">Whatsapp-Group-Contacts-Scraper 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
+  <img alt="Open Issues" src="https://img.shields.io/github/issues-raw/situmorang-com/Whatsapp-Group-Contacts-Scraper" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/situmorang-com/Whatsapp-Group-Contacts-Scraper" ?>
+  <a href="https://twitter.com/edmund7s" target="_blank">
+    <img alt="Twitter: edmund7s" src="https://img.shields.io/twitter/follow/edmund7s.svg?style=social" />
+  </a>
+  <img alt="Discord Chat" src="https://img.shields.io/discord/395825577757638667" />
+</p>
+
 How to scrap whatsapp group contacts from https://web.whatsapp.com/
 This will enable you to get group contacts from your whatsapp specific group you chose as a list on csv or excel
 
