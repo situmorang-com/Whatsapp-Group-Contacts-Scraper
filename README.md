@@ -1,8 +1,16 @@
+<p align="center">
+  <a href="https://www.situmorang.com">
+    <img src="whatsapp.png">
+    <img src="Situmorang-com-logo-md.png">
+  </a>
+</p>  
 <h1 align="center">Whatsapp-Group-Contacts-Scraper 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <img alt="Open Issues" src="https://img.shields.io/github/issues-raw/situmorang-com/Whatsapp-Group-Contacts-Scraper" />
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/situmorang-com/Whatsapp-Group-Contacts-Scraper" ?>
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/situmorang-com/Whatsapp-Group-Contacts-Scraper" />
+  <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/situmorang-com/Whatsapp-Group-Contacts-Scraper" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/situmorang-com/Whatsapp-Group-Contacts-Scraper?style=social" />
   <a href="https://twitter.com/edmund7s" target="_blank">
     <img alt="Twitter: edmund7s" src="https://img.shields.io/twitter/follow/edmund7s.svg?style=social" />
   </a>
@@ -29,3 +37,16 @@ Column D = status: will give you the current status as of now from the particula
 If this project has helped you please give me a "STAR" up above and help spread the news.
 
 Thanks.
+
+
+### 🏠 [Homepage](https://situmorang.com)
+
+### ✨ [Demo](https://web.whatsapp.com)
+
+## Author
+👤 **Edmund Situmorang**
+
+## Contributor
+
+## Show your support
+Give a ⭐️ if this project helped you!
