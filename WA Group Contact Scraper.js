@@ -91,7 +91,7 @@ setTimeout(function() {
 	// CSV += ReportTitle + '\r\n\n';
 	var ReportTitle = "Whatsapp Contacts";
 	CSV += ReportTitle + '\r\n\n';
-	CSV += "Group Name : " +document.querySelector("#app > div > div > div.YD4Yw > div._1-iDe._14VS3 > span > div > span > div > div > div.AfVTG > div._1CRb5._34vig._3XgGT > div.ogWqZ._1hSLr._2-h1L.PX7XY > div._1DTd4._1G2k- > div > div._2S1VP.copyable-text.selectable-text").textContent + '\r\n' + "Number of participants : " + obj.length + '\r\n\n';
+	CSV += "Group Name : " +document.querySelector('[accept="image/gif,image/jpeg,image/jpg,image/png"]').parentNode.parentNode.nextSibling.querySelector('[contenteditable="false"]').textContent + '\r\n' + "Number of participants : " + obj.length + '\r\n\n';
 	//CSV += "Group Name : " + document.evaluate('//*[@id="main"]/header/div[2]/div[1]/div/span', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.innerHTML + '\r\n' + "Number of participants : " + obj.length + '\r\n\n';
 
 
