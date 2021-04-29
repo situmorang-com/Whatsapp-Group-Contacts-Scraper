@@ -48,7 +48,7 @@ setTimeout(function() {
 	
         //GET PROFILE IMAGE AND REPLACE WITH LARGE SIZE INSTEAD OF THUMBNAIL
         // try {var img = obj[i].getElementsByClassName("_3RWII")[0].src.replace("t=s", "t=l");
-        try {var num = obj[i].querySelector('[tabindex="-1"]').firstChild.firstChild.firstChild.getElementsByTagName('img')[0].src;
+        try {var img = obj[i].querySelector('[tabindex="-1"]').firstChild.firstChild.firstChild.getElementsByTagName('img')[0].src;
 			var num = img.match(/u=(\d*)/)[1];}
 		catch (err) { var img = "No Pic";
 			num = namenum.match(/\d+/g); }
