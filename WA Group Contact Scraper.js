@@ -56,7 +56,7 @@ setTimeout(function() {
         
         //GET SCREEN NAME
 		// try { var name = obj[i].getElementsByClassName("emojitext screen-name-text")[0].outerText; }
-		try { var name = obj[i].getElementsByClassName("_3VvbK")[0].outerText; }
+		try { var name = obj[i].querySelector('[tabindex="-1"]').firstChild.lastChild.lastChild.lastChild.querySelector('[dir="auto"]').outerText; }
 		catch (err) { 
 			var name = namenum; 
 			namenum = "IN_CONTACTS";
@@ -64,7 +64,7 @@ setTimeout(function() {
             
         //GET STATUS TEXT
 		// try { var status = obj[i].getElementsByClassName("emojitext")[1].title }
-		try { var status = obj[i].getElementsByClassName("_2Bw3Q")[0].getElementsByClassName("_19RFN")[0].title }
+		try { var status = obj[i].querySelector('[tabindex="-1"]').firstChild.lastChild.lastChild.querySelector('[dir="auto"]').title }
 		catch (err) { var status = "NONE" }
 		
 		data[i] = { num: num, namenum: namenum, name: name, img: img, status: status };
